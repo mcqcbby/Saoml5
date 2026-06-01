@@ -33,8 +33,8 @@ mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
 一般来说自带的app有些新手用起来不太适应，可以用以下小工具代码来生成新的app
 ```
 wget -O saoml5 https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/saoml5;chmod +x saoml5;./saoml5
-
-
+```
+```
 chmod 777 saoml5;./saoml5
 ```
 ### 4.
