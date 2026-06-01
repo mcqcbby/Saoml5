@@ -32,7 +32,7 @@ wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/
 
 安装完成后，可将脚本移动到系统命令目录，方便后续直接调用：
 
-``
+---
 mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
 ```
 
