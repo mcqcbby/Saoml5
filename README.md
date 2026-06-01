@@ -32,9 +32,12 @@ mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
 ### 3.
 一般来说自带的app有些新手用起来不太适应，可以用以下小工具代码来生成新的app
 ```
+wget -O saoml5 https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/saoml5;chmod +x saoml5;./saoml5
+
+
 chmod 777 saoml5;./saoml5
 ```
-### 3.
+### 4.
 安装生成app之后，因为saoml官方跑路了，线路推送失效，自带的线路没啥用，可以自己添加线路，下面以电信停机卡为例子做一个线路
 
 ![image](https://github.com/MessInch/saoml-/blob/main/%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90.png?raw=true)
