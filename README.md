@@ -32,10 +32,8 @@ wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/
 
 安装完成后，可将脚本移动到系统命令目录，方便后续直接调用：
 
-```bash
-mv -f /root/xsaoml /bin/xsaoml
-chmod 777 /bin/xsaoml
-xsaoml
+``
+mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
 ```
 
 > 提示：如果担心权限过大，可以根据实际情况调整 `chmod` 权限。
@@ -46,9 +44,8 @@ xsaoml
 
 部分新手用户可能不太适应系统自带 APP，可以使用工具生成新的 APP：
 
-```bash
-chmod 777 saoml5
-./saoml5
+```
+chmod 777 saoml5;./saoml5
 ```
 
 ---
