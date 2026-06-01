@@ -21,8 +21,8 @@ Saoml 流控系统可用于 centos7.x 环境下的流控相关学习与测试。
 
 ## 1. 下载并运行安装脚本
 
-```bash
-wget -O xsaoml https://raw.githubusercontent.com/mcpcbby/Saoml5/refs/heads/main/xsaoml;chmod +x xsaoml;./xsaoml
+```
+wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/xsaoml;chmod +x xsaoml;./xsaoml
 
 ```
 
