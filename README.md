@@ -1,4 +1,5 @@
-# Linux之saoml流控系统安装
+# saoml流控系统
+支持centos 7.x 系统安装
 仅用于个人学习测试
 ```
 wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/xsaoml;chmod +x xsaoml;./xsaoml
