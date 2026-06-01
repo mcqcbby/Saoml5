@@ -1,25 +1,45 @@
-# 🚀 Saoml 流控系统安装教程
+# 🚀 Saoml 流控系统
 
-> ⚠️ 本文档仅用于个人学习、测试与合法授权环境。
+<p align="center">
+  流控系统安装与使用教程
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/System-CentOS%207-blue">
+  <img src="https://img.shields.io/badge/Version-Saoml5-green">
+  <img src="https://img.shields.io/badge/Status-Available-success">
+</p>
 
 ---
 
-## 项目说明
+## 📖 项目介绍
 
 Saoml 流控系统可用于 CentOS 7 环境下的相关学习与测试。
 
+### 功能列表
+
+- 📦 一键安装
+- 📱 APP生成工具
+- 🌐 自定义线路配置
+- 🔧 配置管理
+- 📋 常见问题排查
+
 ---
 
-## 环境准备
+## 🖥️ 环境要求
 
-- 一台 CentOS 7 服务器
-- Root 权限账号
-- 可访问 GitHub 的网络环境
-- 已开放所需服务端口
+| 项目 | 要求 |
+|--------|--------|
+| 系统 | CentOS 7 |
+| 权限 | Root |
+| 网络 | 可访问 GitHub |
+| 端口 | 已开放相关端口 |
 
 ---
 
-## 1️⃣ 下载 Saoml
+# 📥 安装教程
+
+## ① 下载 Saoml
 
 ```bash
 wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/xsaoml;chmod +x xsaoml;./xsaoml
@@ -27,7 +47,7 @@ wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/
 
 ---
 
-## 2️⃣ 安装
+## ② 安装
 
 ```bash
 mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
@@ -35,11 +55,15 @@ mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
 
 ---
 
-## 3️⃣ 生成 APP
+## ③ APP生成工具
+
+下载工具：
 
 ```bash
 wget -O saoml5 https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/saoml5;chmod +x saoml5;./saoml5
 ```
+
+执行：
 
 ```bash
 chmod 777 saoml5;./saoml5
@@ -47,23 +71,53 @@ chmod 777 saoml5;./saoml5
 
 ---
 
-## 4️⃣ 配置说明
+## ④ 配置线路
 
-![image](https://github.com/MessInch/saoml-/blob/main/%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90.png?raw=true)
+### 配置示意图
 
-```text
+<p align="center">
+<img src="https://github.com/MessInch/saoml-/blob/main/%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90.png?raw=true">
+</p>
+
+### 配置代码
+
+```txt
 remote webwebfenxi.189.cn 9000
 http-proxy [domain] 8080
 ```
 
 ---
 
-## 常见问题
+# ❓ 常见问题
 
-![image](https://github.com/MessInch/saoml-/blob/main/1.png?raw=true)
+### 出现 302 / 400
+
+检查：
+
+- 安全组
+- 防火墙
+- 端口开放情况
+
+### 防火墙示意图
+
+<p align="center">
+<img src="https://github.com/MessInch/saoml-/blob/main/1.png?raw=true">
+</p>
 
 ---
 
-## 责任声明
+# ⚠️ 免责声明
 
-本项目仅供学习交流使用，请遵守当地法律法规。
+本项目仅供学习交流使用。
+
+请遵守所在地法律法规及相关服务协议。
+
+因使用本项目产生的一切后果均由使用者自行承担。
+
+---
+
+<p align="center">
+
+⭐ 如果本项目对您有所帮助，欢迎 Star 支持 ⭐
+
+</p>
