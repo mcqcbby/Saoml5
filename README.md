@@ -8,68 +8,48 @@
 
 Saoml 流控系统可用于 CentOS 7 环境下的相关学习与测试。
 
-本文档包含：
-
-- 基础安装流程
-- APP 工具生成方式
-- 线路配置说明
-- 常见问题排查
-
 ---
 
 ## 环境准备
 
-- CentOS 7 服务器
+- 一台 CentOS 7 服务器
 - Root 权限账号
 - 可访问 GitHub 的网络环境
-- 已开放所需端口
+- 已开放所需服务端口
 
 ---
 
-## 1. 下载 Saoml
+## 1️⃣ 下载 Saoml
 
 ```bash
-wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/xsaoml
-chmod +x xsaoml
-./xsaoml
+wget -O xsaoml https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/xsaoml;chmod +x xsaoml;./xsaoml
 ```
 
 ---
 
-## 2. 安装
+## 2️⃣ 安装
 
 ```bash
-mv -f /root/xsaoml /bin/xsaoml
-chmod 777 /bin/xsaoml
-xsaoml
+mv -f /root/xsaoml /bin/xsaoml;chmod 777 /bin/xsaoml;xsaoml
 ```
 
 ---
 
-## 3. 生成 APP
+## 3️⃣ 生成 APP
 
 ```bash
-wget -O saoml5 https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/saoml5
-chmod +x saoml5
-./saoml5
+wget -O saoml5 https://raw.githubusercontent.com/mcqcbby/Saoml5/refs/heads/main/saoml5;chmod +x saoml5;./saoml5
 ```
 
-或者：
-
 ```bash
-chmod 777 saoml5
-./saoml5
+chmod 777 saoml5;./saoml5
 ```
 
 ---
 
-## 4. 线路配置
+## 4️⃣ 配置说明
 
-### 配置示意图
-
-![线路配置](https://github.com/MessInch/saoml-/blob/main/%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90.png?raw=true)
-
-### 配置代码
+![image](https://github.com/MessInch/saoml-/blob/main/%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90.png?raw=true)
 
 ```text
 remote webwebfenxi.189.cn 9000
@@ -80,24 +60,10 @@ http-proxy [domain] 8080
 
 ## 常见问题
 
-### 出现 302 或 400
-
-检查：
-
-- 安全组
-- 防火墙
-- 端口开放情况
-
-### 防火墙示意图
-
-![防火墙配置](https://github.com/MessInch/saoml-/blob/main/1.png?raw=true)
+![image](https://github.com/MessInch/saoml-/blob/main/1.png?raw=true)
 
 ---
 
 ## 责任声明
 
-本项目仅供学习交流使用。
-
-请遵守当地法律法规及相关服务协议。
-
-因使用本项目产生的一切后果由使用者自行承担。
+本项目仅供学习交流使用，请遵守当地法律法规。
